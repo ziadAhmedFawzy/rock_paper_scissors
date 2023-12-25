@@ -1,15 +1,15 @@
 import random
 
 x = random.randrange(0, 3)
-recent = ["rocket", "paper", "scissors"]
+recent = ["rock", "paper", "scissors"]
 
 while True:
-    hand = input("rocket, paper, scissors : ")
-    if recent[x] == "rocket" and hand == "paper":
+    hand = input("rock, paper, scissors : ")
+    if recent[x] == "rock" and hand == "paper":
         print(f"{recent[x]} -- {hand} : win\n")
     elif recent[x] == "paper" and hand == "scissors":
         print(f"{recent[x]} -- {hand} : win\n")
-    elif recent[x] == "scissors" and hand == "rocket":
+    elif recent[x] == "scissors" and hand == "rock":
         print(f"{recent[x]} -- {hand} : win\n")
     elif recent[x] == hand:
         print(f"{recent[x]} == {hand} : draw\n")
