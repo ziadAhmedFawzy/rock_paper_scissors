@@ -1,4 +1,4 @@
-# rocket paper scissors
+# rock paper scissors
 ## this is simple game for fun
 
 ### use random module :
